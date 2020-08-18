@@ -1,0 +1,153 @@
+{
+  "transactions": [
+    {
+      "id": 0,
+      "prods": [
+        {
+          "id": 0,
+          "onsale": false,
+          "returnable": false,
+          "companyId": 0,
+          "name": "Product #1",
+          "price": 350,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "onsale": true,
+          "returnable": false,
+          "companyId": 1,
+          "name": "Product #2",
+          "price": 150,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 0,
+          "name": "Product #4",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "transaction_date": "2020-05-03T12:27:40+04:00"
+    },
+    {
+      "id": 1,
+      "prods": [
+        {
+          "id": 7,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 0,
+          "name": "Product #8",
+          "price": 125,
+          "quantity": 1
+        }
+      ],
+      "transaction_date": "2020-06-06T05:49:14+04:00"
+    },
+    {
+      "id": 2,
+      "prods": [
+        {
+          "id": 2,
+          "onsale": true,
+          "returnable": true,
+          "companyId": 1,
+          "name": "Product #3",
+          "price": 167,
+          "quantity": 1
+        }
+      ],
+      "transaction_date": "2020-06-09T10:10:17+04:00"
+    },
+    {
+      "id": 3,
+      "prods": [
+        {
+          "id": 4,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 1,
+          "name": "Product #5",
+          "price": 67,
+          "quantity": 3
+        },
+        {
+          "id": 5,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 0,
+          "name": "Product #6",
+          "price": 98,
+          "quantity": 2
+        }
+      ],
+      "transaction_date": "2020-05-24T03:27:12+04:00"
+    },
+    {
+      "id": 4,
+      "prods": [
+        {
+          "id": 8,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 2,
+          "name": "Product #9",
+          "price": 78,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "onsale": false,
+          "returnable": true,
+          "companyId": 1,
+          "name": "Product #3",
+          "price": 167,
+          "quantity": 1
+        }
+      ],
+      "transaction_date": "2020-06-19T08:23:18+04:00"
+    },
+    {
+      "id": 5,
+      "prods": [
+        {
+          "id": 6,
+          "onsale": true,
+          "returnable": false,
+          "companyId": 2,
+          "name": "Product #7",
+          "price": 587,
+          "quantity": 1
+        }
+      ],
+      "transaction_date": "2020-05-28T07:34:16+04:00"
+    }
+  ],
+  "companies": [
+    {
+      "id": 0,
+      "name": "AAA",
+      "returnPolicy": {
+        "timeLimit": 15
+      }
+    },
+    {
+      "id": 1,
+      "name": "BBB",
+      "returnPolicy": {
+        "timeLimit": 60
+      }
+    },
+    {
+      "id": 2,
+      "name": "CCC",
+      "returnPolicy": {
+        "timeLimit": 30
+      }
+    }
+  ]
+}
